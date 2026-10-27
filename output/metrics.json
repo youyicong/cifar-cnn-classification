@@ -1,0 +1,19 @@
+{
+  "results": {
+    "MLP": {
+      "test_acc": 0.5324
+    },
+    "SimpleCNN": {
+      "test_acc": 0.7033
+    },
+    "ImprovedCNN": {
+      "test_acc": 0.7871
+    }
+  },
+  "ablation": {
+    "完整 ImprovedCNN": 0.7871,
+    "无数据增强": 0.8027,
+    "无 BatchNorm": 0.7829,
+    "无 Dropout": 0.8234
+  }
+}

@@ -1,0 +1,13 @@
+# 数据集（170MB，不上传）
+data/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 训练日志
+training_log*.txt
+
+# 生成的 Word 文档（源码为 .md）
+*.docx
