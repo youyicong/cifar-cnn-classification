@@ -150,7 +150,7 @@ doc.add_paragraph()
 p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
 r = p.add_run("姓名：游宜聪　　学号：52612048014"); set_run(r, size=12)
 p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-r = p.add_run("代码仓库：https://github.com/（待补充）"); set_run(r, size=10.5)
+r = p.add_run("代码仓库：https://github.com/youyicong/cifar-cnn-classification"); set_run(r, size=10.5)
 doc.add_paragraph()
 
 # ================= 摘要 =================
